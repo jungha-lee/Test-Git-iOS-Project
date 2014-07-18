@@ -21,6 +21,7 @@
 		2AC630B41979358700E768A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC630961979358600E768A4 /* UIKit.framework */; };
 		2AC630BC1979358700E768A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AC630BA1979358700E768A4 /* InfoPlist.strings */; };
 		2AC630BE1979358700E768A4 /* C10_Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC630BD1979358700E768A4 /* C10_Git_testTests.m */; };
+		2AC630C91979A14B00E768A4 /* JLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC630C81979A14B00E768A4 /* JLTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2AC630B91979358700E768A4 /* C10-Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "C10-Git testTests-Info.plist"; sourceTree = "<group>"; };
 		2AC630BB1979358700E768A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AC630BD1979358700E768A4 /* C10_Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C10_Git_testTests.m; sourceTree = "<group>"; };
+		2AC630C71979A14B00E768A4 /* JLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLTest.h; path = ../JLTest.h; sourceTree = "<group>"; };
+		2AC630C81979A14B00E768A4 /* JLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLTest.m; path = ../JLTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2AC630A41979358700E768A4 /* Main.storyboard */,
 				2AC630A71979358700E768A4 /* JLViewController.h */,
 				2AC630A81979358700E768A4 /* JLViewController.m */,
+				2AC630C71979A14B00E768A4 /* JLTest.h */,
+				2AC630C81979A14B00E768A4 /* JLTest.m */,
 				2AC630AA1979358700E768A4 /* Images.xcassets */,
 				2AC630991979358600E768A4 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC630A31979358600E768A4 /* JLAppDelegate.m in Sources */,
+				2AC630C91979A14B00E768A4 /* JLTest.m in Sources */,
 				2AC630A91979358700E768A4 /* JLViewController.m in Sources */,
 				2AC6309F1979358600E768A4 /* main.m in Sources */,
 			);
